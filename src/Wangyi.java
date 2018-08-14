@@ -1,3 +1,4 @@
+import java.math.BigInteger;
 import java.util.*;
 
 /**
@@ -82,6 +83,7 @@ class KillInfo {
     int timeK;
     String Killer;
     String Victim;
+
 }
 
 

@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Stack;
+
 /**
  * @auther: WJoe
  * @Description: 例如，“student. a am I”。后来才意识到，这家伙原来把句子单词的顺序翻转了，
@@ -13,6 +16,8 @@ public class Problem44 {
           return str;
       String[] strings  = str.split(" ");
       int start = 0;
+        Stack<Integer> stack =new Stack<>();
+                ArrayList<Integer> list = new ArrayList<>();
       int end = strings.length-1;
       while (start<end){
           String temp = strings[start];
